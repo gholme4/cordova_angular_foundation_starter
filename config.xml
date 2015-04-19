@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.app.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Video Demo</name>
+    <description>
+        A sample application
+    </description>
+    <author email="name@email.com" href="http://website.com">
+        Your Name
+    </author>
+    <preference name="AllowInlineMediaPlayback" value="true"/>
+    <preference name="deployment-target" value="7.1" />
+    <preference name="android-minSdkVersion" value="10" />
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="BackupWebStorage" value="false"/>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
